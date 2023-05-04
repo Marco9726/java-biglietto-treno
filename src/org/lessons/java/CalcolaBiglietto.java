@@ -11,11 +11,11 @@ public class CalcolaBiglietto {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		System.out.print("Numeri di km da percorrere: ");
-		int km = Integer.parseInt(in.nextLine());
+		int km = in.nextInt();
 //		System.out.println(km);
 		
 		System.out.print("Età: ");
-		int età = Integer.parseInt(in.nextLine());
+		int età = in.nextInt();
 //		System.out.println(età);
 //		
 		double prezzoBase = km * 0.21;
