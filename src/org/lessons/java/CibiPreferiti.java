@@ -18,7 +18,7 @@ public class CibiPreferiti {
 		
 		System.out.print("Cibo ultimo in classifica: " + cibiPreferiti[cibiPreferiti.length -1] + "\n");
 		
-		System.out.print("Cibo ultimo metà classifica: " + cibiPreferiti[cibiPreferiti.length / 2]);
+		System.out.print("Cibo metà classifica: " + cibiPreferiti[cibiPreferiti.length / 2]);
 	}
 	
 }
